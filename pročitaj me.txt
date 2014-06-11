@@ -1,0 +1,8 @@
+1. mapa html sadrži u veæini php kod
+2. korisnièko ime i lozinka za pristup bazi je:
+   Korisnièko ime: root
+   Lozinka: 123
+3. pristup administratorskoj stranici:
+   korisnièko ime: admin
+   lozinka: bratom
+4. na administratorskoj stranici se ispisuju svu korisnici i nihove naruðbe u obliku pogodnom za kasniju obradu

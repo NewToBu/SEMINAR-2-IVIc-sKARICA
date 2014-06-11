@@ -1,0 +1,596 @@
+/* Općeniti stilovi */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', Helvetica, sans-serif;
+  padding-top:30px;
+   /*  background-image:url('../images/intro.jpg'); */
+}
+
+img { max-width: 100%; }
+
+h1, h2 {
+  color: #028A9E;
+}
+
+/*+++++++++++++++++++++LOGIN TRAKA++++++++++++++++++++++++*/
+
+.login{
+background: #333;
+width:100%;
+height:30px;
+position: fixed;
+top: 0;
+z-index: 100;
+
+}
+.login a{
+float:right;
+text-decoration: none;
+padding-right:20px;
+padding-top:3px;
+padding-bottom:5px;
+padding-left:10px;
+}
+
+.login a:hover{
+background:#fff;
+
+}
+
+.login p{
+
+}
+
+/*+++++++++++++++++++++++++MJESTO ZA LOGO , TRAŽILICU I  KOŠARICU+++++++++++++++++++++++++++++++*/
+
+.prvo {
+
+padding-top:30px;
+padding-bottom:3px;
+}
+
+.logoo{
+/* width:200px; */
+/* height:150px; */
+/* padding-top: 20px; */
+}
+/* .logoo img {
+height:120px;
+} */
+
+.logo {
+  float: left;
+  margin: 0 0 0 10px;
+  font-weight: 300;
+  margin: 20px 0;
+  font-size: 1em;
+  text-transform: uppercase;
+}
+
+.trazilica {
+padding-top:70px;
+padding-bottom:5px;
+}
+
+
+
+#search {
+width:80%;
+height:50px;
+padding-left:20px;
+}
+
+
+::-webkit-input-placeholder{
+font-size:18px;
+}
+
+.kupi {
+
+margin-top: 13px;
+height: 118px;
+padding-left: -11px;
+/* margin-left: 75px; */
+/* padding-top:20px; */
+/* background-image:url('../images/kosarica.png'); */
+background-repeat:no-repeat;
+/* background-color:#555; */
+}
+.kupi a{
+
+display:block;
+font-size:30px;
+width:100%;
+height:70px;
+text-align:right;
+font-weight:bold;
+text-decoration: none;
+}
+
+.kupi a:hover{
+color:#66FF99;
+}
+
+
+.brojPR{
+height: 126px;
+}
+.brojPR p{
+padding-top: 14px;
+text-align: right;
+padding-left: 75px;
+font-size: 37px;
+font-weight: bolder;
+color: purple;
+
+}
+
+.site-header { 
+   background: #FFF; 
+   /* background-image:url('../images/intro.jpg'); */
+ /*  padding: 10px 0; */
+  background-image:url('../images/gore.png');
+  background-size: 100%;
+  -webkit-box-shadow: 0 0 20px rgba(0,0,0,0.3);
+  -moz-box-shadow: 0 0 20px rgba(0,0,0,0.3);
+  box-shadow: 0 0 20px rgba(0,0,0,0.3);
+  z-index: 1;
+  width: 100%;
+  background-repeat:no-repeat;
+  /* position: fixed; */
+  /* top: 0; */
+}
+
+/*+++++++++++++++++++++++++++INTRO+++++++++++++++++++++++++++++++++++*/
+
+
+.slike{
+padding-top:40px;
+}
+.slike h1{
+color:black;
+}
+
+.k {
+color:firebrick;;
+}
+
+.intro {
+  margin: -1px 0 0 0;
+  /* background: #028A9E; */
+  background-image:url('../images/intro1.png');
+  background-size: 100%;
+  height: 400px;
+  text-align: center;
+  position: relative;
+  background-repeat:no-repeat;
+}
+
+.intro-overlay {
+  position: absolute;
+  top: 120px;
+  left: 0;
+  width: 100%;
+  text-align: left;
+  padding: 20px 0;
+  color: #FFF;
+  text-align: center;
+}
+
+.intro-overlay h1 {
+  font-size: 36px;
+  font-weight: 600;
+  color: #FFF;
+}
+
+.intro-overlay p {
+  width: 60%;
+  margin: 0 auto;
+  font-size: 28px;
+  font-weight: 300;
+}
+
+.intro .row {
+  position: relative;
+}
+
+.intro h1 {
+  margin: 0;
+}
+
+
+
+
+/*+++++++++++++++++++++++++++++++++++++++++UREĐENJE KOŠARICE++++++++++++++++++++++++++++++++++++++*/
+
+
+.proizvodiPO{
+height:auto;
+height: 190px;
+}
+
+.slikaUKosarici{
+padding-right: 100px;
+padding-left: 10px;
+padding-top: 10px;
+height: 170px;
+}
+
+
+
+.buttonUkloni{
+margin-top:20px;
+text-align:center;
+width: 150px;
+background-color: red;
+color: white;
+border-radius: 4px;
+text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+}
+.buttonUkloni2{
+margin-top:20px;
+text-align:center;
+width: 150px;
+background-color:chocolate;
+color: white;
+border-radius: 4px;
+text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+
+.buttonKupi{
+background: rgb(28, 184, 65); /* this is a green */
+margin-top:20px;
+text-align:center;
+width: 150px;
+color: white;
+border-radius: 4px;
+text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+.kos{
+
+}
+.kos h1{
+
+}
+.proizvodi h1 {}
+
+.proizvodiUKL{
+width: 650px;
+}
+.proizvodiUKL a{
+float: right;
+}
+/*+++++++++++++++++++++++++++++++++++++NEKA NAVIGACIJA+++++++++++++++++++++++++++++++++++*/
+
+
+
+.main-navigation {
+	text-align: center;
+  float: right;
+}
+
+.main-navigation li, .footer-navigation li {
+  display: inline;
+}
+
+.main-navigation ul {
+  margin: 0;
+  padding: 10px 0;
+}
+
+.main-navigation a, .site-footer a {
+  display: inline-block;
+  padding: 10px 20px;
+  color: #DB5949;
+  text-decoration: none;
+  font-weight: 400;
+}
+
+.main-navigation a:hover, .site-footer a:hover {
+  background: #DB5949;
+  color: #FFF;
+}
+
+a { color: #DB5949; }
+a:hover { text-decoration: none; }
+
+
+
+
+
+
+/*+++++++++++++++++++NA PRVOJ STRANICI++++++++++++++++++++++++++++++++*/
+
+
+.gray-boxes {
+  margin: 5% auto;
+}
+
+.gray-boxes p{
+/* color:red; */
+
+}
+
+
+
+/*++++++++++++++++++++++++++++++++ASIDE BAR NA UNUTANJOJ STRANICI++++++++++++++++++++++++++*/
+
+.asidebar{
+height:auto;
+background-image:url("../images/rucniksareni.jpg");
+background-size: 100%;
+}
+}
+
+
+
+
+
+
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++UREĐENJE PROIZVODA+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+
+
+
+
+
+.stvar{
+height:720px;
+}
+
+.stvar h4 {
+padding-bottom: 20px;
+}
+
+.stvar p {
+height:50px;
+}
+.stvar img:hover{
+  -webkit-box-shadow: 0 0 20px rgba(0,0,0,0.3);
+  -moz-box-shadow: 0 0 20px rgba(0,0,0,0.3);
+  box-shadow: 0 0 20px rgba(0,0,0,0.3);
+ 
+}
+
+.stvar strong{
+font-size: 21px;
+color: crimson;
+}
+
+.boja select {
+   width:140px;
+   overflow: hidden;
+   background: #F8F8F8;
+   border: 1px solid #DDDDDD;
+   height: 30px;
+   border-radius:2px;
+ }
+
+.broj select{
+   width:100px;
+   overflow: hidden;
+   background: #F8F8F8;
+   border: 1px solid #DDDDDD;
+   height: 30px;
+   border-radius:2px;
+} 
+
+.velicina select {
+   width:112px;
+   overflow: hidden;
+   background: #F8F8F8;
+   border: 1px solid #DDDDDD;
+   height: 30px;
+   border-radius:2px;
+}
+
+.kolicina select{
+ width:110px;
+   overflow: hidden;
+   background: #F8F8F8;
+   border: 1px solid #DDDDDD;
+   height: 30px;
+   border-radius:2px;
+}
+ 
+.dodaj {
+
+	background-color:#44c767;
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:28px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+	width: 202px;
+}
+.dodaj:hover {
+	background-color:#5cbf2a;
+}
+.dodaj:active {
+	position:relative;
+	top:1px;
+}
+
+.cijena{
+width: 215px;
+}
+
+/*+++++++++++++++++++++++++++++++++++++FORMA+++++++++++++++++++++++++++++++++++++++*/
+
+
+
+.forma{
+padding-top:80px;
+padding-left:41%;
+padding-bottom:70px;
+}
+
+
+
+/*++++++++++++++++++++++++++++++++FOOTER++++++++++++++++++++++++++++++++++++++++*/
+
+
+
+
+.site-footer {
+  margin-top: 20px;
+	text-align: center;
+	padding: 10px;
+	background: #FFF;
+}
+
+.site-footer ul {
+  padding: 0;
+}
+
+
+
+/*+++++++++++++++++++++++++++++++++++++++++++UREĐENJE IZBORNIKA SASTRANE+++++++++++++++++++++++++++++++*/
+
+
+
+
+#menuCheckbox, .menuToggle { display: none; }
+#menuCheckbox:checked + .main-navigation { -webkit-transform: translateX(0); -moz-transform: translateX(0); transform: translateX(0); }
+
+@media only screen and (max-width:780px) {
+  .column { width: 100%; margin: 0; padding: 0 10px; -moz-box-sizing: border-box; box-sizing: border-box; }
+
+  .logo { padding-left: 10px; }
+  
+  .menuToggle { float: right; position: absolute; right: 20px; top: 35px; display: block; background: #000; height: 5px; text-indent: -9999px; width: 30px; 
+  }
+  .menuToggle:after, .menuToggle:before { position: absolute; top: 0; width: 100%; content: ""; display: block; height: 100%; }
+  .menuToggle:before { padding-bottom: 5px; border-top: 5px solid #000; top: auto; bottom: 0; }
+  .menuToggle:after { padding-top: 5px; border-bottom: 5px solid #000;  }
+
+  .main-navigation { position: fixed; right: 0; top: 83px; width: 250px; -webkit-transform: translateX(250px); -moz-transform: translateX(250px); transform: translateX(250px); transition: 200ms; background: #222; bottom: 0; }
+  .main-navigation ul { padding: 0; }
+  .main-navigation li, .main-navigation a { display: block; float: none; }
+  .main-navigation a { display: block; float: none; padding: 20px 0; }
+}
+
+
+.leftMenu {
+  font-family: Helvetica, Arial, "Lucida Grande", sans-serif;
+  line-height: 1.5;
+  margin: 50px auto; /*for display only*/
+  -webkit-box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+     -moz-box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+          box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+}
+
+.menu-item {
+  background: #fff;
+}
+
+.menu-item h4 {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 500;
+  padding: 7px 12px;
+  background: #a90329;
+}
+
+.menu-item h4 a {
+  color: white;
+  display: block;
+  text-decoration: none;
+  width: 200px;
+}
+.menu-item h4 {
+  border-bottom: 1px solid rgba(0,0,0,0.3);
+  border-top: 1px solid rgba(255,255,255,0.2);
+  color: #fff;
+  font-size: 15px;
+  font-weight: 500;
+  padding: 7px 12px;
+   
+  /*Gradient*/
+  background: #a90329; /* Old browsers */
+  background: -moz-linear-gradient(top, #12619E 100%,#363BB3 44%,#223E99 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#a90329), color-stop(44%,#8f0222), color-stop(100%,#6d0019)); /* Chrome,Safari4+ */
+ background: -webkit-linear-gradient(top, #12619E 100%,#363BB3 44%,#223E99 100%);
+  background: -o-linear-gradient(top, #12619E 100%,#363BB3 44%,#223E99 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #12619E 100%,#363BB3 44%,#223E99 100%); /* IE10+ */
+  background: linear-gradient(top, #12619E 100%,#363BB3 44%,#223E99 100%); /* W3C */
+}
+
+.menu-item h4:hover {  
+  background: #cc002c; /* Old browsers */
+  background: -moz-linear-gradient(top,  #cc002c 0%, #6d0019 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#cc002c), color-stop(100%,#6d0019)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  #223E99 0%,#12619E 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  #cc002c 0%,#6d0019 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  #cc002c 0%,#6d0019 100%); /* IE10+ */
+  background: linear-gradient(top,  #cc002c 0%,#6d0019 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cc002c', endColorstr='#6d0019',GradientType=0 ); /* IE6-9 */
+}
+
+/*ul Styles*/
+.menu-item ul {
+  background: #fff;
+  font-size: 13px;
+  line-height: 30px;
+  height: 0px;
+  list-style-type: none;
+  overflow: hidden;
+  padding: 0px;
+   
+  /*Animation*/
+  -webkit-transition: height 1s ease;
+     -moz-transition: height 1s ease;
+       -o-transition: height 1s ease;
+      -ms-transition: height 1s ease;
+          transition: height 1s ease;
+}
+
+
+ 
+.menu-item ul a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #aaa;
+  display: block;
+  width: 200px;
+}
+
+.menu-item:hover ul {
+  height: 120px;
+}
+ 
+/*li Styles*/
+.menu-item li {
+  border-bottom: 1px solid #eee;
+}
+ 
+.menu-item li:hover {
+  background: #eee;
+}
+
+
+
+/*++++++++++++++++++++++++++++++admin+++++++++++++++++++++*/
+
+.ar {
+color:red;
+}
